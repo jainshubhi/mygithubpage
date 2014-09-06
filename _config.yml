@@ -1,0 +1,53 @@
+# Site wide configuration
+
+title: Shubhi Jain
+locale: en_US
+description: Computer Science, Caltech 2017. Hacking a better world.
+logo: chathead.png
+search: true
+url: http://www.shubhijain.com
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  use_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Shubhi Jain
+  avatar: chathead.jpg
+  email: jain.shubhankar@gmail.com
+  disqus-shortname:
+  twitter: shubhankar_jain
+  facebook: shubhi767
+  github: jainshubhi
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: https://www.linkedin.com/pub/shubhankar-jain/54/96a/aa7
+  instagram: shubhidooo
+  flickr: #username
+  tumblr: shubhidoo
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
